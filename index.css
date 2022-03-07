@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto';
+    background-color: #F4F6FC;
+    
+}
+
+.containerH{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 15%;
+}
+
+.headerLogo{
+    width: 60px;
+    height: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+nav a{
+    padding-right: 13px;
+    font-weight: 600;
+    color: #6B708D;
+}
+
+nav a:hover{
+    color:#072AC8;
+}
+
+.contactButton{
+    width: 150px;
+    height: 52px;
+    background-color: #072AC8;
+    border:none;
+    color: white;
+    font-weight: 600;
+}
+
+.contactButton:hover{
+    background-color: black;
+}
+
+.containerHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empowerContent{
+    max-width: 530px;
+}
+
+.empowerContent > h1{
+    margin-bottom: 30px;
+    color: #292e47;
+    font-size: 60px;
+    line-height: 130%;
+    font-weight: bold;
+}
+
+.circle{
+    margin-bottom: 40px;
+    line-height: 150%;
+    max-width: 435px;
+    color: #6b708d;
+    font-size: 20px;
+}
+
+.heroButtons{
+    display: block;
+    justify-self: flex-start;
+}
+
+.seeOur{
+    color: #6b708d;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.heroContact{
+    width: 150px;
+    height: 52px;
+    padding: 15px 30px;
+    background-color: #072AC8;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.man2cards{
+   position: relative;
+}
+
+.man2cards > img{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.card1{
+    position: absolute;
+    left: -19%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    max-width: 375px;
+    color: #FFFFFF;
+    mix-blend-mode:darken;
+}
+
+.man{
+    width: 570px;
+    margin: 20px;
+    max-width: 100%;
+}
+
+.card2{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -25%;
+    bottom: -22%;
+    max-width: 375px;
+    mix-blend-mode:darken;
+    background-color: whitesmoke;
+}
+
+.containerClients{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.projects{
+    margin-top:200px;
+}
+
+.projectsContainer{
+    margin-left:170px;
+}
+
+.h2Project{
+    color: #292e47;
+    font-size: 40px;
+}
+.items{
+    margin-top: 70px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.threeImgs img {
+    height: 444px;
+    max-height: 240px;
+    max-width: 340px;
+}
+
+.projectContent{
+    width: 340px;
+    display: flex;
+}
+
+.projectText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.projectTitle{
+    margin: 30px 30px 20px;
+    color: #292e47;
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: 500;
+}
+
+.projectDesc{
+    margin: 0 30px 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.projectText a{
+    margin: 30px;
+    color: #072ac8;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+
+
+
+.testimonial{
+    border: solid red;
+}
