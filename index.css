@@ -52,6 +52,12 @@ nav a:hover{
 .contactButton:hover{
     background-color: black;
 }
+
+.padre{
+    margin-top: 0px;
+    padding: 0px 30px;
+}
+
  /* Hero */
 .containerHero{
     display: flex;
@@ -425,18 +431,108 @@ nav a:hover{
 }
 
 .containerQ{
-    border: solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;   
-    height: 227px;
+    height: 507px;
     align-items: center;
 }
 
 .questionh1{
-    width: 500px;
-height: 47px;
-left: 470px;
-right: 470px;
-
+    margin-bottom: 20px;
+    color: #292e47;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 20px;
 }
+
+.paraQ{
+    font-size: 17px;
+    color: #556198;
+    font-weight: 600;
+}
+
+.emailQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.emailField{
+    width: 393px;
+    height: 80px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    background-color: #ecf7ff;
+    color: #020516;
+    border: none;
+    font-size: 17px;
+}
+
+.envelope{
+    background-image: url("/mid_term_project/images/newsletter/icon/mail.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 9% 50%;
+}
+
+.subsButton{
+    height: 80px;
+    margin-left: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color: #072ac8;
+    font-size: 17px;
+    color:#F4F6FC;
+    border: none;
+}
+
+/*footer*/
+footer{
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+
+.containerFooter{
+    margin-right: 170px;
+    margin-left: 170px;
+}
+
+.footerContent{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogo{
+    width: 98px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-image: url("/mid_term_project/images/logos/circle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+.footerAddr{
+    font-size: 17px;
+    line-height: 150%;   
+    font-weight: 400;
+    display: inline-block;
+}
+
+.footerLinks{
+    display: inline-grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    transform: translate(681px, -65px);
+}
+.footerLinks a{
+    font-size: 17px;
+}
+
+
