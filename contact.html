@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="outerHeader">   
+        <header class="containerH"> 
+            <img class="headerLogo" src="/mid_term_project/images/logos/circle.svg" alt="circle">
+            <nav>
+                <a href="Home">Home</a>
+                <a href="Projects">Projects</a>
+                <a href="Services">Services</a>
+            </nav>
+            <button class="contactButton" type="button">Contact Us</button>
+        </header>
+    </div>
+
+    <div class="contactContainer">
+        <form action="action_page.php">
+          <label for="fname">Full Name*</label>
+          <input type="text" id="fname" name="fullname" placeholder="Enter your full name">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email address">
+      
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{9}" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here ..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <footer>
+        <div class="padre containerFooter">
+            <div class="footerContent">
+                <div class="footerLogo"></div>
+                <div class="footerAddr">2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+            </div>
+            <div class="footerLinks">
+                <a href="">Team</a>
+                <a href="">Services</a>
+                <a href="">About Us</a>
+                <a href="">Press</a>
+                <a href="">Projects</a>
+                <a href="">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
